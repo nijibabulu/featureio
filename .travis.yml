@@ -3,10 +3,11 @@ python: 3.6
 
 sudo: false
 
-install: "make"
+install: 
+  - pip install .
 
 script:
-  - make test
+  - pytest
 
 after_success:
   - coveralls
