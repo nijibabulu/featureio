@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+featureio = {editable = true, path = "."}
 
 [dev-packages]
 click = "*"
 pytest = "*"
-featureio = {editable = true, path = "."}
 pytest-cov = "*"
 
 [requires]
