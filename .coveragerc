@@ -1,0 +1,6 @@
+[run]
+source=featureio
+
+[report]
+omit =
+    tests/*
